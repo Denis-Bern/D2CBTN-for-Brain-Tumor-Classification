@@ -2,7 +2,7 @@
 
 This repository contains a comprehensive implementation of brain tumor classification using multiple state-of-the-art deep learning models. The project implements 10-fold cross-validation for robust evaluation and includes six different architectures for comparative analysis.
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Overview](#overview)
 - [Features](#features)
@@ -16,7 +16,7 @@ This repository contains a comprehensive implementation of brain tumor classific
 - [Contributing](#contributing)
 - [License](#license)
 
-## 🎯 Overview
+## Overview
 
 This project implements brain tumor classification using multiple deep learning architectures to classify brain MRI images into four categories:
 - **Glioma Tumor**
@@ -26,7 +26,7 @@ This project implements brain tumor classification using multiple deep learning 
 
 The implementation includes comprehensive evaluation metrics, data augmentation, and 10-fold cross-validation for robust performance assessment.
 
-## ✨ Features
+## Features
 
 - **Multiple Model Architectures**: 6 different deep learning models
 - **10-Fold Cross-Validation**: Robust evaluation methodology
@@ -36,7 +36,7 @@ The implementation includes comprehensive evaluation metrics, data augmentation,
 - **Visualization**: Confusion matrices, learning curves, and ROC plots
 - **Model Persistence**: Automatic model weight saving
 
-## 📁 Dataset Structure
+## Dataset Structure
 
 Organize your dataset in the following structure:
 
@@ -66,7 +66,7 @@ Dataset/
     └── pituitary_tumor/
 ```
 
-## 🚀 Installation
+## Installation
 
 ### Prerequisites
 
@@ -123,7 +123,7 @@ print(f"TensorFlow version: {tf.__version__}")
 print(f"GPU available: {tf.config.list_physical_devices('GPU')}")
 ```
 
-## 📖 Usage
+## Usage
 
 ### 1. Prepare Your Dataset
 
@@ -182,7 +182,7 @@ Results are automatically saved in model-specific directories:
 - `10_FOLD_Swin_Transformer_Model/`
 - `10_FOLD_Vision_Transformer_Model/`
 
-## 🤖 Models
+## Models
 
 ### 1. EfficientNetB0
 - **Architecture**: EfficientNetB0 with custom classification head
@@ -220,7 +220,7 @@ Results are automatically saved in model-specific directories:
 - **Features**: Pure transformer architecture for vision
 - **File**: `10_FOLD_Vision_Transformer.py`
 
-## 📊 Results
+## Results
 
 Each model generates comprehensive evaluation metrics:
 
@@ -239,7 +239,7 @@ Each model generates comprehensive evaluation metrics:
 - Model weights (.h5 format)
 - Aggregated metrics across all folds
 
-## 📁 File Structure
+## File Structure
 
 ```
 D2CBTN/
@@ -296,7 +296,7 @@ The code automatically detects and configures GPUs:
 strategy = tf.distribute.MirroredStrategy(devices=[f"/gpu:{i}" for i in range(len(gpus))])
 ```
 
-## 🔧 Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
@@ -340,22 +340,7 @@ strategy = tf.distribute.MirroredStrategy(devices=[f"/gpu:{i}" for i in range(le
    tf.keras.mixed_precision.set_global_policy(policy)
    ```
 
-## 📈 Performance Comparison
-
-The models are evaluated using 10-fold cross-validation with the following metrics:
-
-| Model | Accuracy | Precision | Recall | F1-Score | AUC |
-|-------|----------|-----------|--------|----------|-----|
-| EfficientNetB0 | ~95% | ~94% | ~95% | ~94% | ~0.98 |
-| DenseNet121 | ~96% | ~95% | ~96% | ~95% | ~0.99 |
-| ResNet152 | ~95% | ~94% | ~95% | ~94% | ~0.98 |
-| Ensemble (EDNet) | ~97% | ~96% | ~97% | ~96% | ~0.99 |
-| Swin Transformer | ~96% | ~95% | ~96% | ~95% | ~0.99 |
-| Vision Transformer | ~95% | ~94% | ~95% | ~94% | ~0.98 |
-
-*Note: Actual performance may vary based on dataset characteristics and training conditions.*
-
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
@@ -367,14 +352,14 @@ The models are evaluated using 10-fold cross-validation with the following metri
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - TensorFlow team for the deep learning framework
 - Original authors of the pre-trained models
 - Research community for the brain tumor datasets
 - Open-source contributors for various libraries
 
-## 📞 Support
+## Support
 
 For questions, issues, or contributions:
 - Open an issue on GitHub
