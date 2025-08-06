@@ -78,7 +78,7 @@ Dataset/
 ### Step 1: Clone the Repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/Denis-Bern/D2CBTN-for-Brain-Tumor-Classification
 cd D2CBTN
 ```
 
@@ -340,32 +340,9 @@ strategy = tf.distribute.MirroredStrategy(devices=[f"/gpu:{i}" for i in range(le
    tf.keras.mixed_precision.set_global_policy(policy)
    ```
 
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## Acknowledgments
 
 - TensorFlow team for the deep learning framework
 - Original authors of the pre-trained models
 - Research community for the brain tumor datasets
 - Open-source contributors for various libraries
-
-## Support
-
-For questions, issues, or contributions:
-- Open an issue on GitHub
-- Contact the maintainers
-- Check the troubleshooting section
-
----
-
-**Note**: This implementation is for research purposes. For clinical applications, additional validation and regulatory compliance may be required. 
