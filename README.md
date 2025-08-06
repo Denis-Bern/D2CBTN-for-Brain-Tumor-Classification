@@ -1,4 +1,4 @@
-# Brain Tumor Classification using Deep Learning Models
+# Enhanced Magnetic Resonance Imaging Feature Extraction for Precise Brain Tumor Classification Using Dual Deep Convolutional Networks
 
 This repository contains a comprehensive implementation of brain tumor classification using multiple state-of-the-art deep learning models. The project implements 10-fold cross-validation for robust evaluation and includes six different architectures for comparative analysis.
 
