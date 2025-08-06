@@ -2,6 +2,8 @@
 
 This repository contains a comprehensive implementation of brain tumor classification using multiple state-of-the-art deep learning models. The project implements 10-fold cross-validation for robust evaluation and includes six different architectures for comparative analysis.
 
+![Proposed_D2BCTN_architecture](https://github.com/user-attachments/assets/986ac2f8-bbfa-4e26-a73c-820ffbf2488a)
+
 ## Table of Contents
 
 - [Overview](#overview)
