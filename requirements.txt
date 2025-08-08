@@ -1,0 +1,31 @@
+# Core Deep Learning Framework
+tensorflow==2.10.0
+tensorflow-gpu==2.10.0
+
+# Computer Vision
+opencv-python==4.6.0.66
+Pillow==9.3.0
+
+# Data Science and Machine Learning
+numpy==1.23.3
+pandas==1.5.0
+scikit-learn==1.1.2
+
+# Visualization
+matplotlib==3.5.3
+seaborn==0.11.2
+
+# Progress and Utilities
+tqdm==4.64.1
+ipywidgets==7.7.0
+
+# Jupyter Support (optional)
+jupyter==1.0.0
+ipykernel==6.15.2
+
+# Additional Utilities
+warnings
+os
+sys
+time
+itertools 
